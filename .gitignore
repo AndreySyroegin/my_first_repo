@@ -11,3 +11,8 @@
 *.lai
 *.la
 *.a
+
+# VisualStudio service files
+*.sln
+*.vcproj
+*.ncb
