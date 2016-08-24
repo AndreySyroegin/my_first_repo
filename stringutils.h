@@ -47,6 +47,10 @@ public:
 
 		return (found != std::string::npos) ? (str.erase(0, found), str) : (str.clear(), str);
 	}
+
+
+
+
 	static std::string & ltrim(std::string & str, const char* charSet = " \t")
 	{
 		std::string::size_type found = str.find_first_not_of(charSet);
