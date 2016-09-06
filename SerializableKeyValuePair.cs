@@ -11,6 +11,10 @@ using System.Text;
     public struct KeyValuePairThatSerializesProperly<TKey, TValue>
     {
 
+	
+	
+	
+	
         private TKey key;
         private TValue value;
 
